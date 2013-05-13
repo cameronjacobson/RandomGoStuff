@@ -7,7 +7,7 @@
 - `go get github.com/hoise/webgo`
 - set appropriate vhost entry in nginx (see `sample-nginx.conf`)
 - `/etc/init.d/nginx restart`
-- `go run samplewebsite.go`
+- `go run samplewebapp.go`
 - `curl -XGET http://{{VHOST}}/world`
 
 #####Output:  `hello world`
