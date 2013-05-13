@@ -20,7 +20,7 @@ on a "large" instance on AWS, but keep in mind, `ab` was
 running locally with the application.  Memory of the process
 did not budge, and 1x CPU was being utilized almost 100%.
 
-<code>
+<pre><code>
 Finished 100000 requests
 
 
@@ -61,4 +61,4 @@ Percentage of the requests served within a certain time (ms)
   99%     26
  100%     38 (longest request)
 
-</code>
+</code></pre>
